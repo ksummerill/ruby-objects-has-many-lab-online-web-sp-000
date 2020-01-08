@@ -20,7 +20,7 @@ class Author
   # creates a new post with it and associates the post and author
   def add_post_by_title(post)
     new_post = Post.new(post)
-    post.author = self
+    add_post(new_post)
   end
 
 end
