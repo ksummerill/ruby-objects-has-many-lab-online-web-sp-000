@@ -15,7 +15,7 @@ class Song
   end
 
   # returns nil if the song does not have an artist
-  # give me the song instance passed in with artist and name 
+  # give me the song instance passed in with artist and name
   # if the song instance passed in has an artist
   def artist_name
     self.artist.name if self.artist
