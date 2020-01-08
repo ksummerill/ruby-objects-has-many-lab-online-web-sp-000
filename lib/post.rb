@@ -17,6 +17,8 @@ class Post
     @title
   end
 
+  # knows the name of its author
+  # returns nil if the post does not have an author
   def author_name
     self.author.name if self.author
   end
