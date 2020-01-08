@@ -9,6 +9,7 @@ class Song
     @@all << self
   end
 
+  # all songs get stored with this method
   def self.all
     @@all
   end
