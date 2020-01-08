@@ -14,8 +14,13 @@ class Song
     @@all
   end
 
+  # returns nil if the song does not have an artist
   def artist_name
-    self.artist.name if self.artist
+    # self.artist.name if self.artist
+    if self.artist
+      return nil
+    else self.artist.name
+    end
   end
 
 end
