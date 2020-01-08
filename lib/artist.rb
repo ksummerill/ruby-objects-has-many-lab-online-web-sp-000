@@ -14,7 +14,6 @@ class Artist
 
   # calls on the .all method within the Song class to produce all song instances
   def songs
-    # add_song(song)
     Song.all
   end
 
