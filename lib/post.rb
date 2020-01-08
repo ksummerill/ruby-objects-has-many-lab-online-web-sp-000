@@ -6,5 +6,5 @@ class Post
     @title = title
     @@all = []
   end
-    
+
 end
