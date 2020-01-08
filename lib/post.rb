@@ -9,10 +9,12 @@ class Post
     @@all << self
   end
 
+  # # all posts get stored with this method
   def self.all
     @@all
   end
 
+  # includes a title
   def title
     @title
   end
