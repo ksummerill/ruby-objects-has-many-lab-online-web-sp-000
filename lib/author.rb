@@ -6,6 +6,7 @@ class Author
     @name = name
   end
 
+  # calls on the .all method within the Post class to produce all post instances
   def posts
     Post.all
   end
